@@ -340,7 +340,8 @@ def retrieveData(numReads):
     
     now = datetime.now()
     current_time = now.strftime("%H_%M_%S")
-    df.to_excel('Resistances_'+current_time+'.xlsx',sheet_name='sheet1', index=False)
+    current_date = str(datetime.date.today().month) + '_' + str(datetime.date.today().day) + '_' + str(datetime.date.today().year)
+    df.to_excel(current_date+'_Resistances_'+current_time+'.xlsx',sheet_name='sheet1', index=False)
 
 """
 This method retrieves the resistance values being thrown out to serial when the program is run.
@@ -360,7 +361,8 @@ def retrieveData2(numReads):
     
     now = datetime.now()
     current_time = now.strftime("%H_%M_%S")
-    df.to_excel('Resistances_'+current_time+'.xlsx',sheet_name='sheet1', index=False)
+    current_date = str(datetime.date.today().month) + '_' + str(datetime.date.today().day) + '_' + str(datetime.date.today().year)
+    df.to_excel(current_date+'_Resistances_'+current_time+'.xlsx',sheet_name='sheet1', index=False)
 
 
 """
