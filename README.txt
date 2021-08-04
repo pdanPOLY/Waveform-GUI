@@ -6,7 +6,7 @@ Inital Setup
 ------------
 -Download any of the recent version of Python (make sure you choose to install pip with it)
 -(Recommended) Download Visual Studio Code as a text editor for code with a convenient terminal menu
--Once you have the file with all the code (gui2.py), put it in a folder in some accessible place such as 
+-Once you have the file with all the code (waveform_gui.py), put it in a folder in some accessible place such as 
  your desktop, and open that folder through VS Code
 -NOTE: The files can directly be double clicked on and opened with python, but it doesn't let you see the code and edit it
 -EXCEL FILE LOCATION: The excel files will be saved to the same location as the python program, so it is recommended to put them in a folder together
