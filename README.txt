@@ -37,6 +37,8 @@ Code Functionality
  and make sure the inputted data was in the accepted ranges
 	-If any of the data was inputted incorrectly, the error will be caught and the program will end
 -The data gets sent serially to the microcontroller, and then reads the resistance values and saves them to an excel file
+ (Must check that correct COM port is connected: connect your microcontroller, and where the serial connection is set up at the bottom 
+  of the code, replace the "COM9" parameter with your desired communication port, and fill out the rest of the parameters correspondingly.)
 
 Running the Program
 -------------------
